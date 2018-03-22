@@ -34,11 +34,12 @@ as t where errp > 1.0;
 
 
 class News:
+
     def __init__(self):
         # fetch data from database
         self.db = psycopg2.connect('dbname=news')
         self.cursor = self.db.cursor()
-      
+
     def execute(self, query):
         self.cursor.execute(query)
         return self.cursor.fetchall()
@@ -53,6 +54,7 @@ class News:
         # blank line
         print ''
     # close connection
+
     def exit(self):
         self.db.close()
 
@@ -64,4 +66,3 @@ if __name__ == '__main__':
     news.analysis(question_2, query_2)
     news.analysis(question_3, query_3, '% error')
     news.exit()
-
