@@ -1,6 +1,7 @@
 # Logs-Analysis
 It is an internal reporting tool that will use information from the database to discover what kind of articles the site's readers like.
 Analysis of logs is done to answer the following three questions:
+
 1 : What are the most popular three articles of all time?
 2 : Who are the most popular article authors of all time?
 3 : On which days did more than 1% of requests lead to errors?
