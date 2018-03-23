@@ -21,6 +21,18 @@ The log table has list of request sent to the server
 
 We have to first install Virtual Machine and Vagrant on the device.
 
+VirtualBox is the software that actually runs the virtual machine.
+
+Vagrant is the software that configures the VM and lets you share files between your host computer and the VM's filesystem.
+
+Download the VirtualBox from the link below :
+
+https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
+
+Download Vagrant from the link below:
+
+https://www.vagrantup.com/downloads.html
+
 Steps to log in into the VM from command line:
 
 1 : Go to the folder where the Vagrant file is stored 
@@ -29,7 +41,13 @@ Steps to log in into the VM from command line:
 
 Now you are logged in to the VM
 
-We need to have the newsdata.sql file from the Udacity downloads section. Download the file.
+We need to have the newsdata.sql file from the Udacity downloads section. 
+
+Download the file from the link below:
+
+https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip
+
+Unzip the folder containing file using : unzip newsdata.zip 
 
 The file needs to be in the same folder in which the vagrant file is present
 
