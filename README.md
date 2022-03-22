@@ -65,6 +65,4 @@ Install it using: pip install psycopg2
 
 Run the python code using: python news.py
 
-The output is displayed on the terminal
-
-
+The output is displayed on the terminal.
